@@ -1,17 +1,20 @@
 
 :root {
-
-}
-nav {  
-    background-color: darkblue;
-    padding: 10px;
+    --heading-background-color:rgb(248, 244, 245);
+    --heading-text-color:#333;
+    --heading-font:'Monteserrat',Helevitica,sans-serif;
+    --padding: 1rem;
+    --border: 1px solid rgb(0 0 0 /0.1);
 }
 nav a {
-    color: white;
+    color: var(--heading-text-color);
     display: block;
     padding: 20px;
 }
 h1 {
+    background-color: var(--heading-background-color);
+    font-family: var(--heading-font);
+    padding: var(--padding);
     color: darkblue;
 }
 main img {
@@ -36,11 +39,12 @@ aside{
     text-align: center;
 }
 aside img{
+    padding: var(--padding);
     width: 150px;
     height: auto;
 }
 p{
-    padding: 0;
+    padding: var(--padding);
 }
 footer{
     margin-top: 15px;
