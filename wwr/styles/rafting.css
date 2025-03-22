@@ -42,12 +42,13 @@ a {
 .hero article{
     position: absolute;
     bottom: 250px;
-    left: 30px;
+    left: 170px;
     background-color: var(--primary-color);
-    overflow: auto;
+    justify-content: center;
+    align-items: center;
     border: 0px solid;
     height: auto;
-    width: 1270px;
+    width: 1000px;
     opacity: 0.9;
 }
 .hero article img{
