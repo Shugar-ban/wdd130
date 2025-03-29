@@ -16,6 +16,33 @@ a {
 .socialinks{
     text-decoration: none;
 }
+header {
+    display: grid;
+    grid-template-columns: 300px auto;
+    grid-gap: 50px;
+    background-color: #D0CCD0;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container h2 {
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+#container-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
 .hero {
     position: relative;
     width: 1300px;
@@ -58,4 +85,8 @@ a {
 }
 p {
     font: 'roboto', sans-serif;
+}
+footer {
+    float: right;
+    background-color: #2EC0F9;
 }
