@@ -96,14 +96,13 @@ h3 {
     text-align: center;
 }
 .content {
+    width: 100%;
     background-color: #8CBA80;
-    justify-content: center;
-    align-items: center;
 }
 .employee-profile {
+    width: 100%;
     background-color: #CACF85;
-    align-items: center;
-    justify-content: center;
+    height: auto;
 }
 form {
     background-color: #8E6E53;
