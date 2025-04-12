@@ -108,3 +108,10 @@ h3 {
 form {
     background-color: #EED2CC;
 }
+.hero-content{
+    position: relative;
+} 
+.hero-content h1{
+    position: absolute;
+    right: 200px;
+}
