@@ -115,3 +115,12 @@ form {
     position: absolute;
     right: 200px;
 }
+#call-to-action {
+    background-color: #6C9A8B;
+}
+#trip-listings {
+    background-color:  #CACF85;
+}
+#all-trips-overview {
+    background-color: #EED2CC ;
+}
