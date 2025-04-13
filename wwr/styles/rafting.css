@@ -49,8 +49,6 @@ nav {
     height: 650px;
 }
 .hero img {
-    width: 1300px;
-    height: 650px;
     justify-content: center;
     align-items: center;
 }
@@ -62,7 +60,6 @@ nav {
     border: 0px solid var(--backgound-color);
     background-color: var(--secondary-color);
     height: auto;
-    width: 1270px;
     text-align: center;
     opacity: 0.7;
 }
@@ -75,7 +72,6 @@ nav {
     align-items: center;
     border: 0px solid;
     height: auto;
-    width: 1000px;
     opacity: 0.9;
 }
 .hero article img{
@@ -87,8 +83,16 @@ p {
     font: 'roboto', sans-serif;
 }
 footer {
-    float: right;
+    text-align: center;
+    padding: 1em 0;
     background-color: #6C9A8B;
+    color: #fff;
+    position: sticky; /* Or fixed, depending on desired behavior */
+    bottom: 0;
+    width: 100%;
+}
+footer nav {
+    float: right;
 }
 .employee-profile {
     display: flex;
@@ -117,9 +121,11 @@ form {
 }
 #call-to-action {
     background-color: #6C9A8B;
+    width: 100%;
 }
 #trip-listings {
     background-color:  #CACF85;
+    width: 100%;
 }
 #all-trips-overview {
     background-color: #EED2CC ;
